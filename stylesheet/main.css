@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    min-width: 100%;
+    min-height:100%;
+}
+.container{
+    padding:3rem;
+}
+body{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-repeat: no-repeat
+}
+.textearea{
+    height:10rem;
+    background-color: wheat;
+    resize: none;
+    text-justify: start;
+}
+#cita{
+    background-color: wheat;
+    border-radius: 10px;
+}
