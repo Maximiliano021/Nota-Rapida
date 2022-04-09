@@ -23,4 +23,4 @@ function eventListeners(){
         textCita = '';
         cita.reset();
     });
-}
+} 
