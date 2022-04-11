@@ -23,3 +23,9 @@ body{
     background-color: wheat;
     border-radius: 10px;
 }
+.tarea-lista{
+   display: inline-block
+}
+.texteareas{
+    width:20rem;
+}
