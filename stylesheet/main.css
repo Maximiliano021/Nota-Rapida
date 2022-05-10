@@ -2,30 +2,36 @@
     margin:0;
     padding:0;
 }
+body{
+    min-width: 100%;
+}
 html{
     min-width: 100%;
     min-height:100%;
 }
-.container{
-    padding:3rem;
-}
+
 body{
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 .textearea{
     height:10rem;
-    background-color: wheat;
+    background-color: rgba(233, 210, 166, 0);
     resize: none;
     text-justify: start;
 }
-#cita{
-    background-color: wheat;
-    border-radius: 10px;
+#cita, .cardNew{
+    background-color: rgb(229, 205, 162);
+    border-radius: 5px;
 }
 .tarea-lista{
    display: inline-block
 }
-.texteareas{
-    width:20rem;
+
+.container{
+    min-width:93%;
+    width:100%;
+}
+.cardNew{
+    width:22%;
 }
