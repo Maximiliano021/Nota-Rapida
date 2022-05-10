@@ -17,7 +17,7 @@ function eventListeners() {
                   <button type="button" class="btn-close bg-danger" aria-label="Close"></button>            
               </div>
               <p>${textCita}</p>`;
-      nuevaCita.classList.add("col-md-4", "textearea","cardNew");
+      nuevaCita.classList.add("col-md-2", "textearea","cardNew" ,"col-5");
       citasCreadas.appendChild(nuevaCita);
       textCita = "";
       cita.reset();

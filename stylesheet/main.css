@@ -29,9 +29,13 @@ body{
 }
 
 .container{
-    min-width:93%;
+    min-width:98%;
     width:100%;
 }
-.cardNew{
-    width:22%;
+
+
+@media (max-width:768px){
+    .citasCreadas{
+        justify-content: space-between;
+    }
 }
